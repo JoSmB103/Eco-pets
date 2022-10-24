@@ -1,0 +1,59 @@
+<section id="nuestros-programas">
+    <div class="container">
+        <h2 class="plantas">Registro de tus plantas</h2>
+        <button class="agregar" onclick="openModal()">+ Agregar plantas</button>
+        <div class="programas">
+            <div class="carta">
+                <h3>Rosa</h3>
+                <img src="./assets/Rosa.png">
+                <button>+ Informacion</button>
+                <div><button class="delete">- Eliminar</button></div>
+                
+            </div>
+            <div class="carta">
+                <h3>Margarita</h3>
+                <img src="./assets/flor.png">
+                <button>+ Informacion</button>
+                <div><button class="delete">- Eliminar</button>
+                </div></div>
+            <div class="carta">
+                <h3>Azucena</h3>
+                <img src="./assets/lirio.png">
+                <button>+ Informacion</button>
+                <div><button class="delete">- Eliminar</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modalAdd">
+        <div class="contenedor">
+            <div class="cerrar-modal" onclick="CerrarModal()">X</div>
+            <h2>Ingrese una nueva planta</h2>
+            <form action="" get>
+                <input type="file" name="imagen" id="imagen" accept="image/*" required value=""><br><br>
+                <label>Nombre de la planta: <input type="text" required id="nombre"></label><br><br>
+                <label>Nombre Cientifico:   <input type="text" required id="cientifico"></label><br><br>
+                <label>Familia: <select id="familia">
+                    <option value="ACANTHACEAE">Acanthaceae</option>
+                    <option value="ACERACEAE">Aceraceae</option>
+                    <option value="ACTINIDIACEAE">Actinidiaceae</option>
+                    <option value="AGAVACEAE-AMARARILIDACEAE">Agavaceae-Amararilidaceae</option>
+                    <option value="AIZOACEAE">Aizoaceae</option>
+                    <option value="AMARANTHACEAE">Amaranthaceae</option>
+                    <option value="ANACARDIACEAE">Anacardiaceae</option>
+                    <option value="AQUIFOLIACEAE">Aquifoliaceae</option>
+                </select></label><br><br>
+                <label>Tipo de clima: <select id="clima">
+                    <option value="oseanico">Oseanico</option>
+                    <option value="continental">Continental</option>
+                    <option value="mediterraneo">Mediterraneo</option>
+                    <option value="montañoso">Montañoso</option>
+                    <option value="tropical">Tropical</option>
+                </select></label><br><br>
+                <label>Ingrese algun comentario de su planta: </label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+            <input type="submit" value="Registrar"  id="Registrar" onclick="Registrar()" required>
+            <input type="submit" value="Cancelar" onclick="CerrarModal()">
+            </form>
+        </div>
+    </div>
+</section>
