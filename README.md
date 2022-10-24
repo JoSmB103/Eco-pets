@@ -1,27 +1,19 @@
-# Angular
+# Eco-Pets 
+Proyecto de catedra para la materia DAW 02L, segundo siclo del año 2022. Universidad Don Bosco, San Salvador, El Salvador.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+## Integrantes
 
-## Development server
+Eduardo Andrés Cortez Ramirez.      02L - CR210957.
+Julio Francisco Villanueva Bonilla. 02L - VB220426.
+Denis Adonay Mendoza López.         02L - ML221838.
+Marvin Josué Martínez Burgos.       02L - MB210365.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Enlace a Trello
 
-## Code scaffolding
+https://trello.com/b/eiiOrXgP/prueba
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Licencia utilizada
 
-## Build
+creative commons zero v1.0 universal (CC0 1.0 Universal)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
