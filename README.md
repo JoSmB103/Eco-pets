@@ -1,4 +1,4 @@
-# Eco-Pets 
+# ECO-Pets 
 Proyecto de catedra para la materia DAW 02L, segundo siclo del año 2022. Universidad Don Bosco, San Salvador, El Salvador.
 
 ## Integrantes
